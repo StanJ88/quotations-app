@@ -23,7 +23,35 @@ h3 {
 
 
 .form {
-    display:grid;
+    display: grid;
     justify-content: center;
-    
+
+}
+
+#auteur {
+    display: flex;
+    justify-content: center;
+
+}
+
+#citation {
+    justify-content: center;
+    display: flex;
+}
+
+.bouton {
+
+    border-radius: 20% 20% 20% 20%;
+}
+
+#quote-list {
+
+font-size: large;
+
+}
+
+.author {
+    font-style: italic;
+    font-size: smaller;
+    font-weight: bold;
 }

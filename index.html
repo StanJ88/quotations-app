@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src = script.js></script>
+    <script src = script.js defer></script>
     <link rel="stylesheet" href="style.css" />
     <title>Les Citations</title>
 </head>
@@ -14,15 +14,15 @@
     <hr> 
    <form action="" method="get" class="form" id="formulaire">
   <div class="form">
-    <label for="citation" id="citation">Citation: </label>
-    <input type="text"  id="citation" required />
+    <label for="citations" id="citation">Citation: </label>
+    <input type="text" name="citation"  id="citations" required />
       <div class="form">
-    <label for="Auteur" id ="auteur">Autrice/auteur: </label>
-    <input type="text"  id="auteur" />
+    <label for="auteurs" id ="auteur">Autrice/auteur: </label>
+    <input type="text" name="auteur"  id="auteurs" />
   </div>
   <div class="form">
     <br>
-    <button type="button" class="bouton">Soumettre</button>
+     <input type="submit" class ="bouton" value="Soumettre" />
   </div>
 <br>
   <div id="quote-list">

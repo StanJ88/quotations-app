@@ -20,3 +20,10 @@ h3 {
     font-size: smaller;
 
 }
+
+
+.form {
+    display:grid;
+    justify-content: center;
+    
+}
